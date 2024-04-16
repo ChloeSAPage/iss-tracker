@@ -29,7 +29,7 @@ function updateISSLocation(data) {
 }
 
 // create the map using leafletjs
-var map = L.map("map").setView([0, 0], 500);
+var map = L.map("map").setView([0, 0], 15);
 // set the map
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
@@ -37,6 +37,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(map);
 
+// create ISS icon
 var iss = L.icon({
   iconUrl: "images/ISS_spacecraft_model_1.png",
   shadowUrl: "images/shadow.png",
