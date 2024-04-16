@@ -1,0 +1,20 @@
+.update {
+    background: orange;
+    border: 2px solid black;
+    padding: 20px 40px;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.update:hover {
+    background: darkorange;
+}
+
+#map { 
+    height: 500px;
+}
+
+body {
+    text-align: center;
+}
