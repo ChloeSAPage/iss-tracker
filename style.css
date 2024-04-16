@@ -1,20 +1,17 @@
-.update {
-    background: orange;
-    border: 2px solid black;
-    padding: 20px 40px;
-    font-size: 30px;
-    margin: 20px;
-    cursor: pointer;
+body {
+    text-align: center;
+    background: url('images/stars.jpg');
+    background-size: cover;
+    color: white;
 }
 
-.update:hover {
-    background: darkorange;
+.container {
+    display: flex;
+    justify-content: center;
 }
 
 #map { 
     height: 500px;
-}
-
-body {
-    text-align: center;
+    width: 800px;
+    border-radius: 50%;
 }
